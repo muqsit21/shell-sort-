@@ -1,5 +1,5 @@
 function combSort(arr: number[]): number[] {
-    const shrinkFactor = 1.3;
+    const shrinkFactor = 1.4;
     let gap = arr.length;
     let swapped = true;
 
@@ -26,5 +26,5 @@ function combSort(arr: number[]): number[] {
 }
 
 // Example usage:
-const arr = [5, 2, 9, 1, 5, 6];
-console.log(combSort(arr)); // Output: [1, 2, 5, 5, 6, 9]
+const arr = [5, 2, 9, 1, 5, 6, 8];
+console.log(combSort(arr)); // Output: [1, 2, 5, 5, 6, 8, 9]

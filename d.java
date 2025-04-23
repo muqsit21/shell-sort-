@@ -32,7 +32,7 @@ public class ShellSort {
 
     // Main method to test the sort
     public static void main(String[] args) {
-        int[] data = {45, 23, 53, 12, 67, 34, 89, 5};
+        int[] data = {45, 23, 53, 12, 67, 34, 89, 5, 6, 324, 102};
 
         System.out.println("Original array:");
         printArray(data);
